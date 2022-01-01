@@ -1,0 +1,339 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box; border: none; outline: none; text-decoration: none; object-fit: cover; transition: all .2s linear;
+}
+
+/* Bootstrap form field border, border-color, focus customize */
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: none;
+  border: 1px solid #8e8e8e;
+  color: #000;
+  outline: none;
+}
+textarea,
+textarea.form-control,
+input.form-control, 
+input[type=text], 
+input[type=password], 
+input[type=email], 
+input[type=number], 
+[type=text].form-control, 
+[type=password].form-control, 
+[type=email].form-control, 
+[type=tel].form-control, 
+[contenteditable].form-control{
+  box-shadow: none;
+  border: 1px solid #8e8e8e;
+  color: #000;
+  outline: none;
+}
+
+
+
+body{
+    background: #f8f9fa;
+}
+img{
+    max-width: 100%;
+}
+
+.header{
+    background: url(./images/banner-bg.png) no-repeat center;
+    background-size: cover;
+    object-fit: cover;
+    height: 90vh;
+}
+.hero-content {
+    padding-top: 10rem;
+}
+
+.hero-content h1 {
+    font-size: 5rem;
+    color: #fff;
+    line-height: 1.7;
+    font-weight: 800;
+}
+
+.hero-content p {
+    font-size: 1.7rem;
+    color: #111;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-bottom: 4rem;
+}
+
+
+.about-section-right {
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.about-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.img-top {
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    width: 80%;
+}
+
+.img-bottom {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 80%;
+}
+
+.about-section {
+    padding-top: 12rem;
+    padding-bottom: 18rem;
+    position: relative;
+}
+
+.about-section-left {
+    width: 100%;
+}
+
+
+/* .about-section h1 {
+    position: absolute;
+    background: #D026A2;
+    width: 100%;
+    top: 35%;
+    left: 50%;
+    border-radius: 5rem;
+    padding: 2rem;
+    color: #fff;
+    height: 5rem;
+    line-height: 3.5rem;
+} */
+.about-text p {
+    color: #000;
+    margin-top: 1.5rem;
+    text-align: justify;
+}
+
+.about-text .btn {
+    background: #fb8a05;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 2rem;
+    padding: 0.8rem 2.3rem;
+    font-size: 1.2rem;
+}
+.about-text .btn:hover{
+    background: #6F3BAA;
+}
+
+.service-section{
+    background: linear-gradient(to right, #693dab, #cd29a2);
+    padding: 1.5rem 0;
+}
+.service-bg{
+    background: url(./images/marriage-img.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 35rem;
+}
+
+.service-icon {
+    width: 10rem;
+    height: 7rem;
+    text-align: center;
+    line-height: 6rem;
+    background: #fff;
+    padding: .5rem;
+    border-radius: .8rem;
+}
+.service-content {
+    padding: 5rem 0;
+}
+.service-content h1, 
+.service-content h2, 
+.service-content p {
+    color: #fff;
+}
+.service-content h1 {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    line-height: 1.7;
+    text-transform: uppercase;
+}
+
+.service-content p {
+    font-size: 1.2rem;
+}
+
+.blog-container {
+    position: relative;
+    background: #fff;
+}
+
+.blog-date {
+    position: absolute;
+    width: 4.2rem;
+    height: 4.5rem;
+    background: #fb8a05;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.4rem;
+}
+
+.blog-content {
+    padding: 3rem;
+}
+
+.blog-img {
+    width: 50%;
+}
+
+.blog-text {
+    width: 50%;
+    padding-left: 2rem;
+    text-align: justify;
+}
+.blog-comment a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+.blog-comment a:hover{
+    color: #fb8a05;
+}
+.blog-comment a:nth-child(2){
+    color: #fb8a05;
+    font-weight: bolder;
+}
+
+.callback-form button {
+    width: 10rem;
+    margin: 0 auto;
+    background: #fb8a05;
+    color: #fff !important;
+    padding: 0.5rem 2rem;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.callback-form button:hover{
+    background-color: #b538a4;
+}
+.callback-form
+input[type=text], 
+input[type=password], 
+input[type=email], 
+input[type=number]{
+    color: #424343;
+    padding: 1.2rem;
+}
+.callback-form textarea{
+    height: 4rem;
+    padding: 1.2rem;
+}
+.groom-section h1 {
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.groom-msg {
+    border: 1px dashed #000;
+    padding: 2rem;
+}
+
+.groom-msg h3 {
+    color: #fb8a05;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+}
+
+.groom-msg p {
+    color: #989797;
+    font-size: 1rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+.groom-msg p i{
+    color: #fb8a05;
+    font-weight: 700;
+    font-size: 1.7rem;
+    padding-top: 2rem;
+}
+
+.footer-section{
+    background-color: #2d2c2d;
+    color: #fff !important
+}
+
+.social-icons a{
+    display: block;
+    margin-left: 1.2rem;
+}
+.social-icons {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons a i {
+    font-size: 2.2rem;
+    color: #fff;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info p {
+    font-size: 1.5rem;
+    padding: 3rem 1rem;
+}
+
+.contact-info p i {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.subscribe {
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid #fff;
+}
+.subscribe .input-group {
+    width: 80%;
+    height: 3.5rem;
+    margin: auto;
+}
+.subscribe input {
+    font-size: 1.3rem;
+    padding: .8rem;
+}
+.subscribe .input-group input.form-control {
+    border: none;
+    border-radius: 0 !important;
+}
